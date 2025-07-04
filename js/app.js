@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 设置默认API选择（如果是第一次加载）
     if (!localStorage.getItem('hasInitializedDefaults')) {
-        // 默认选中资源
+         // 默认选中资源
         selectedAPIs = ["heimuer", "ruyi", "bfzy", "tyyszy", "ffzy", "zy360", "iqiyi", "wolong", "jisu", "dbzy", "ftys", "ysgc", "qqzy"];
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
 
