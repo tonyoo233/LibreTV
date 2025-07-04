@@ -22,6 +22,18 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    ftys: {
+        api: 'https://www.fantuan.tv/api.php/provide/vod',
+        name: '饭团影视',
+    },
+    ysgc: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '影视工厂',
+    },
+    qqzy: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        name: '七七资源',
+    },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
